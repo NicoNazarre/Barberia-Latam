@@ -1,0 +1,184 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    background: url(../images/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #c78c69;
+    text-decoration: underline;
+}
+.tituloPrincipal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+strong em
+{
+    color: red;
+}
+
+.fondoBarberia {
+    width: 100%;
+}
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.items:first-child {
+    font-weight: bold;
+} 
+
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.insumos {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+    }
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+}
+
+.mapa p {
+    margin: 0 0 2em;
+}
+
+.mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales {
+    padding: 3em 0;
+    background: #888888;
+}
+
+.contenidos-diferenciales {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items {
+    line-height: 1.5;
+}
+
+.items:before {
+    content: "🟊";
+}
+
+.imagen-diferenciales {
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 10px #000000;
+}
+
+.imagen-diferenciales:hover {
+    opacity: 0.3;
+}
+
+.video {
+    width: 560px;
+    margin: 1em auto;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:480px) {
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+    
+    .caja, .principal, .mapa-contenido, .contenidos-diferenciales, .video {
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales {
+        width: 100%;
+    }
+}
+
